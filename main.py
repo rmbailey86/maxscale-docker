@@ -18,3 +18,11 @@ def question_one(cursor):
      for row in data:
           print (row)
      return   
+def question_two(cursor):
+     query = ##SQL query here in quotations##
+     cursor.execute(query)
+     data = sursor.fetchall()
+     print ('first 10 of zipcodes 2')
+     for row in data:
+          print (row)
+     return   
