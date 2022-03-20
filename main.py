@@ -1,7 +1,7 @@
-# CNA 350 Realworld Project
-# Instructor: Zach Rubin, zrubin@rtc.edu
-# Robert Bailey, rmbailey@student.rtc.edu
-# Tutor by Thomas Dewey
+## CNA 350 Realworld Project
+## Instructor: Zach Rubin, zrubin@rtc.edu
+## Robert Bailey, rmbailey@student.rtc.edu
+## Tutor by Thomas Dewey
 
 import mysql.conncetor
 
@@ -27,14 +27,14 @@ def question_two(cursor):
           print (row)
      return   
 def question_three(cursor):
-    query = ##SQL query here in quotations##
+    query = "SELECT MAX(DISTINCT Zipcode) FROM zipcodes_one.zipcodes_one;"
     cursor.execute(query)
     data = cursor.fetchall()
     print ('Largest in Zipcodes 1')
     print (data)
     return
 def question_four(cursor):
-    query = ##SQL query here in quotations##
+    query = "SELECT MIN(DISTINCT Zipcode) FROM zipcodes_two.zipcodes_two;"
     cursor.execute(query)
     data = cursor.fetchall()
     print ('Smallest in Zipcodes 2')
