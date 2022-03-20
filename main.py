@@ -7,6 +7,14 @@ import mysql.conncetor
 
 def connect():
      # connect address : port
-     server_ip = ##the ip address of  your database server##
+     server_ip = 10.0.0.224
      con = mysql.connector.connect(host=server_ip, user='maxuser', password='maxpwd', port='4000')
      return con
+def question_one(cursor):
+     query = ##SQL query here in quotations##
+     cursor.execute(query)
+     data = sursor.fetchall()
+     print ('Last 10 of zipcodes 1')
+     for row in data:
+          print (row)
+     return   
