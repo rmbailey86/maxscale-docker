@@ -40,3 +40,18 @@ def question_four(cursor):
     print ('Smallest in Zipcodes 2')
     print (data)
     return
+def main():
+     conn = connect()
+     curs = conn.cursor()
+     question_one(curs)
+     question_two(curs)
+     question_three(curs)
+     question_four(curs)
+     conn.close()
+     
+ if __name__ == '__main__':
+     main()
+     
+     
+     
+     
