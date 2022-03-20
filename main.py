@@ -26,3 +26,17 @@ def question_two(cursor):
      for row in data:
           print (row)
      return   
+def question_three(cursor):
+    query = ##SQL query here in quotations##
+    cursor.execute(query)
+    data = cursor.fetchall()
+    print ('Largest in Zipcodes 1')
+    print (data)
+    return
+def question_four(cursor):
+    query = ##SQL query here in quotations##
+    cursor.execute(query)
+    data = cursor.fetchall()
+    print ('Smallest in Zipcodes 2')
+    print (data)
+    return
