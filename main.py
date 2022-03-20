@@ -11,17 +11,17 @@ def connect():
      con = mysql.connector.connect(host=server_ip, user='maxuser', password='maxpwd', port='4000')
      return con
 def question_one(cursor):
-     query = ##SQL query here in quotations##
+     query = "SELECT Zipcode FROM zipcodes_one.zipcodes_one ORDER BY Zipcode DESC LIMIT 10;"
      cursor.execute(query)
-     data = sursor.fetchall()
+     data = cursor.fetchall()
      print ('Last 10 of zipcodes 1')
      for row in data:
           print (row)
      return   
 def question_two(cursor):
-     query = ##SQL query here in quotations##
+     query = "SELECT Zipcode FROM zipcodes_two.zipcodes_two ORDER BY Zipcode LIMIT 10;"
      cursor.execute(query)
-     data = sursor.fetchall()
+     data = cursor.fetchall()
      print ('first 10 of zipcodes 2')
      for row in data:
           print (row)
