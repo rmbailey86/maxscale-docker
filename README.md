@@ -1,4 +1,4 @@
-## CNE 370 Realworld Project
+## CNE 370 Real-world Project
 ## Instructor: Zach Rubin, zrubin@rtc.edu
 ##
 ## Robert Bailey, rmbailey@student.rtc.edu
@@ -15,5 +15,5 @@
 ##Running
 ### import mysql.connector
 
-
+## I have tried to use the readme.md and follow its instruction but had issues in the beginning of the code, make build-image.  it does not work at all!!
 
