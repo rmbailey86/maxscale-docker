@@ -8,7 +8,7 @@ import mysql.connector
 
 def connect():
     # connect address : port
-    server_ip = "10.0.0.224"
+    server_ip = "10.0.0.43"
     con = mysql.connector.connect(host=server_ip, user='maxuser', password='maxpwd', port='4000')
     return con
 
