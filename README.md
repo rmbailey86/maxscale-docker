@@ -5,6 +5,7 @@
 ## Tutor by Thomas Dewey
 
 # Introduction
+### Installing docker and docker-compose
 ### The sharded cluster allows access to 2 databases on the same IP-address.
 ### The Sharded database allows information to spread storage of a single database across many servers.
 ### Making changes and adding a main.py into pycharm thru github.
@@ -13,7 +14,8 @@
 ### Setting up database on zipcodes in python, and submitting it into github. 
 
 ##Running
-### import mysql.connector
-
-## I have tried to use the readme.md and follow its instruction but had issues in the beginning of the code, make build-image.  it does not work at all!!
+### installing docker and docker-compose
+### installing mariadb/maxscale
+### setting up database for sharded cluster 
+### install make build-image
 
