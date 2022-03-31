@@ -13,9 +13,12 @@
 ### Database Proxy with Automatic Failover, Read-Write Splitting, Query Routing, Binlog Server, SQL Firewall
 ### Setting up database on zipcodes in python, and submitting it into github. 
 
-##Running
+## Running
 ### installing docker and docker-compose
 ### installing mariadb/maxscale
 ### setting up database for sharded cluster 
 ### install make build-image
+
+## Issues that came up
+### Upon installing docker-compose, not able to follow the orignal readme using code make build-image as it does not work.
 
